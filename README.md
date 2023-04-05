@@ -12,7 +12,7 @@ To compile the program, enter the command "make" and follow the steps displayed 
 
 The project consists of three .c files and two .h files. The structures.h file contains the declarations of the different structures, as well as the function signatures corresponding to the program's functionalities. The structures.c file contains the implementation of these structures, including the allocation of different structures, matrix and vector multiplication, and the conversion between structures. The tools.h file contains the signatures of the functions of a small dynamic allocation library that manages memory leaks by ensuring that the allocated memory space at the beginning of the program is equal to that released at the end. It also calculates the execution time of a function or part of the program using the gettimeofday function, calculating the interval between two variables "start" and "end."
 
-## Difficulties Encountered
+## Difficulties Encountered
 
 The main difficulties encountered were managing memory leaks, using pointers throughout the project, understanding and implementing the required structures, and deleting null elements in the compact matrix and vector structures.
 Results

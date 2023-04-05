@@ -29,7 +29,7 @@ The program's results are presented and commented in two tables: Table 1 shows t
 | 1500 x 1500       | 8.436839 secondes     | 11.913669 secondes     | 0.003161 secondes   |
 
 
-| Nombre d'éléments | Matrice               | Matrice Compacte       | Vecteur              |
+| Number of elements | Matrix             | Compact Matrix        | Vector           |
 | -----------------| ---------------------| ----------------------|---------------------|
 | 100 x 100         | 80016 octets          | 160016 octets          | 160016 octets       |
 | 500 x 500         | 2000016 octets        | 4000016 octets         | 4000016 octets      |

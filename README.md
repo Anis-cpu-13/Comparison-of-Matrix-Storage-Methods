@@ -24,4 +24,4 @@ The program's results are presented and commented in two tables: Table 1 shows t
 The project's objective was to study different matrix storage structures and compare them in terms of memory consumption and execution time. The results show that the vector structure is the fastest, while the matrix structure consumes the least memory. However, further testing is required to reach a conclusion on the compact matrix structure. The deletion of null elements would provide more concise results.
 License
 
-###This project is licensed under the Apache License, Version 2.0. See the LICENSE file for more details.
+### This project is licensed under the Apache License, Version 2.0. See the LICENSE file for more details.

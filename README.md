@@ -15,9 +15,28 @@ The project consists of three .c files and two .h files. The structures.h file c
 ## Difficulties Encountered
 
 The main difficulties encountered were managing memory leaks, using pointers throughout the project, understanding and implementing the required structures, and deleting null elements in the compact matrix and vector structures.
-Results
+
+## Results
 
 The program's results are presented and commented in two tables: Table 1 shows the execution time of multiplication operations, while Table 2 shows the memory allocated for each structure. Based on the comparison of execution times, the vector structure is the fastest, followed by the matrix structure, and finally the compact matrix structure. Regarding memory consumption, the matrix structure consumes the least, while the vector and compact matrix structures are equal. Unfortunately, the results are inconclusive as null elements were not deleted.
+
+### Résultats :
+
+| Nombre d'éléments | Matrice               | Matrice Compacte       | Vecteur              |
+| -----------------| ---------------------| ----------------------|---------------------|
+| 100 x 100         | 0.001242 secondes     | 0.001727 secondes      | 0.000040 secondes   |
+| 500 x 500         | 0.146036 secondes     | 0.211177 secondes      | 0.001411 secondes   |
+| 1000 x 1000       | 1.758294 secondes     | 3.455154 secondes      | 0.011092 secondes   |
+| 1500 x 1500       | 8.436839 secondes     | 11.913669 secondes     | 0.003161 secondes   |
+
+
+| Nombre d'éléments | Matrice               | Matrice Compacte       | Vecteur              |
+| -----------------| ---------------------| ----------------------|---------------------|
+| 100 x 100         | 80016 octets          | 160016 octets          | 160016 octets       |
+| 500 x 500         | 2000016 octets        | 4000016 octets         | 4000016 octets      |
+| 1000 x 1000       | 8000016 octets        | 16000016 octets        | 16000016 octets     |
+| 1500 x 1500       | 18000016 octets       | 36000016 octets        | 36000016 octets     |
+
 
 ## Conclusion
 

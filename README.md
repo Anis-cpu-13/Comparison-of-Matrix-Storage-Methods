@@ -20,9 +20,8 @@ The main difficulties encountered were managing memory leaks, using pointers thr
 
 The program's results are presented and commented in two tables: Table 1 shows the execution time of multiplication operations, while Table 2 shows the memory allocated for each structure. Based on the comparison of execution times, the vector structure is the fastest, followed by the matrix structure, and finally the compact matrix structure. Regarding memory consumption, the matrix structure consumes the least, while the vector and compact matrix structures are equal. Unfortunately, the results are inconclusive as null elements were not deleted.
 
-### Résultats :
 
-| Nombre d'éléments | Matrice               | Matrice Compacte       | Vecteur              |
+| Number of elements | Matrix             | Compact Matrix        | Vector           |
 | -----------------| ---------------------| ----------------------|---------------------|
 | 100 x 100         | 0.001242 secondes     | 0.001727 secondes      | 0.000040 secondes   |
 | 500 x 500         | 0.146036 secondes     | 0.211177 secondes      | 0.001411 secondes   |
